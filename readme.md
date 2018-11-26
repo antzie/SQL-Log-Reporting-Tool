@@ -1,4 +1,4 @@
-# logs-analysis-rev
+# logs-analysis
 Project Version 2.0 
 ## Description
 An internal reporting tool for a newspaper website that determines: what are the most popular articles, who are the most popular authors, what percentage of requests returned errors and then prints out that information.
