@@ -1,6 +1,4 @@
-# SQL Logs Analysis Tool
-Project Version 2.0 
-## Description
+# SQL Logs Analysis Tool (Project Version 2.0 )
 An internal reporting tool for a newspaper website that determines: what are the most popular articles, who are the most popular authors, what percentage of requests returned errors and then prints out that information.
 
 Runs in Vagrant's VM. 
@@ -40,10 +38,11 @@ vagrant ssh
 ```
 cd into shared directory:
 ```
-vagrant@vagrant:~$ cd /vagrant
+$ cd /vagrant
 ```
 Commandline should now look like this:
 ``` vagrant@vagrant:/vagrant$ ```
+
 Run:
 ```
 $ python logs-analysis-rev.py
