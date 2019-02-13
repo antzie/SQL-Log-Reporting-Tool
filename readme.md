@@ -42,11 +42,13 @@ cd into shared directory:
 ```
 vagrant@vagrant:~$ cd /vagrant
 ```
+Commandline should now look like this:
+``` vagrant@vagrant:/vagrant$ ```
 Run:
 ```
-vagrant@vagrant:/vagrant$ python logs-analysis-rev.py
+$ python logs-analysis-rev.py
 ```
-## Issues
+## Note:
 The order of the SQL queries contained in the list: *query_list* is crucial; *query_list* or elements thereof are passed into a number of functions which depend on the order of the elements in *query_list*. Specific functions that will need to be adjusted if query_list is modified are:
 ```
 format_authors_articles()
